@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "name": "maintenance_guard",
+  "profile": "quake2_character",
+  "asset_type": "character",
+  "description": "Heavy industrial maintenance guard with asymmetrical arms and a plasma cutter.",
+  "geometry": {
+    "target_triangles": 900,
+    "hard_max_triangles": 1600,
+    "preserve_silhouette": true,
+    "preserve_uv_seams": true,
+    "flat_shading": true,
+    "vertex_quantization": true,
+    "semantic_weights": {
+      "face": 3.0,
+      "hands": 2.0,
+      "weapon": 3.0,
+      "silhouette": 4.0,
+      "torso_flat": 0.5
+    }
+  },
+  "texture": {
+    "width": 128,
+    "height": 128,
+    "color_mode": "indexed_8bit",
+    "palette": "quake2",
+    "dithering": "ordered",
+    "filter": "nearest",
+    "pbr": false,
+    "normal_map": false,
+    "roughness_map": false
+  },
+  "animation": {
+    "type": "skeletal",
+    "working_rig": "skeleton",
+    "clips": [
+      {
+        "name": "idle",
+        "fps": 10,
+        "loop": true
+      },
+      {
+        "name": "walk",
+        "fps": 10,
+        "loop": true
+      },
+      {
+        "name": "attack",
+        "fps": 10,
+        "loop": false
+      },
+      {
+        "name": "death",
+        "fps": 10,
+        "loop": false
+      }
+    ]
+  },
+  "export": {
+    "formats": [
+      "glb",
+      "md2"
+    ]
+  },
+  "seed": 1337,
+  "notes": [
+    "Keep the plasma cutter readable in silhouette.",
+    "Prefer broad painted forms over tiny generated detail."
+  ],
+  "rigging": {
+    "mode": "skeletal",
+    "auto_rig": true,
+    "backend": "auto",
+    "max_influences_per_vertex": 4,
+    "generate_ik_controls": true,
+    "preserve_authoring_rig": true,
+    "topology_freeze_required": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "profile_version": "1.0",
+  "name": "quake1_monster",
+  "description": "Art-direction preset for Quake 1-era animated creatures.",
+  "suggested": {
+    "target_triangles": 600,
+    "texture_size": [128, 128],
+    "indexed_palette": true,
+    "animation": "vertex_frames"
+  },
+  "hard_limits": {
+    "max_triangles": 2048,
+    "max_vertices": 1024,
+    "max_frames": 256
+  },
+  "allowed_texture_sizes": [[128, 128], [256, 256]],
+  "requires_flat_shading": true,
+  "native_exports": ["mdl"],
+  "modern_exports": ["glb"]
+}

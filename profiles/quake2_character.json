@@ -1,0 +1,20 @@
+{
+  "profile_version": "1.0",
+  "name": "quake2_character",
+  "description": "Art-direction preset for Quake II-era animated characters.",
+  "suggested": {
+    "target_triangles": 900,
+    "texture_size": [128, 128],
+    "indexed_palette": true,
+    "animation": "vertex_frames"
+  },
+  "hard_limits": {
+    "max_triangles": 4096,
+    "max_vertices": 2048,
+    "max_frames": 512
+  },
+  "allowed_texture_sizes": [[128, 128], [256, 256]],
+  "requires_flat_shading": true,
+  "native_exports": ["md2"],
+  "modern_exports": ["glb"]
+}

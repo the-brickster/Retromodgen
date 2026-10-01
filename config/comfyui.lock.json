@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/Comfy-Org/ComfyUI.git",
+  "branch": "master",
+  "baseline_commit": "b65d1ffaca35fcda5889e120dcd0c8520553c7b2",
+  "observed_upstream_version_note": "workflow templates v0.11.73",
+  "recorded_date": "2026-09-30",
+  "status": "integration-baseline-not-yet-certified",
+  "policy": "Advance this pin only after the RetroModGen Comfy compatibility smoke suite passes."
+}

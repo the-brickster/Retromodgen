@@ -1,0 +1,17 @@
+{
+  "profile_version": "1.0",
+  "name": "quake2_prop",
+  "description": "Art-direction preset for Quake II-era static props.",
+  "suggested": {
+    "target_triangles": 500,
+    "texture_size": [128, 128],
+    "indexed_palette": true
+  },
+  "hard_limits": {
+    "max_triangles": 4096
+  },
+  "allowed_texture_sizes": [[64, 64], [128, 128], [256, 256]],
+  "requires_flat_shading": true,
+  "native_exports": ["md2"],
+  "modern_exports": ["glb"]
+}

@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+.env
+cache/
+models/
+outputs/
+.vscode/
+.idea/
+.DS_Store
+
+# ComfyUI runtime base directory (keep only our tracked custom-node loader)
+.comfy/input/
+.comfy/output/
+.comfy/temp/
+.comfy/models/
+.comfy/user/
+.comfy/custom_nodes/*
+!.comfy/custom_nodes/retromodgen_comfy/
+!.comfy/custom_nodes/retromodgen_comfy/__init__.py

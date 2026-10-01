@@ -1,0 +1,21 @@
+{
+  "1": {
+    "class_type": "RetroModGen_LoadAssetSpec",
+    "inputs": {
+      "asset_spec_path": "examples/quake2_guard.asset.json"
+    }
+  },
+  "2": {
+    "class_type": "RetroModGen_LoadProfile",
+    "inputs": {
+      "profile_name": "quake2_character"
+    }
+  },
+  "3": {
+    "class_type": "RetroModGen_ValidateAssetSpec",
+    "inputs": {
+      "asset_spec": ["1", 0],
+      "profile": ["2", 0]
+    }
+  }
+}
